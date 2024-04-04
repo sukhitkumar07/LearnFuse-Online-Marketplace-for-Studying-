@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: poppins;
+  }
+  
+  
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #30475e;
+    color: white;
+    padding: 0;
+  }
+  
+  header nav a{
+    color: white;
+    margin-right: 70px;
+    font-weight: 500;
+  }
+
+div.user{
+    color: #30475e;
+    background-color: #75cfb8;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-right: 30px;
+  }
+  div.user a{
+    color: #30475e;
+  }
+
+
+header .logo-container {
+    margin-right: 10px;
+  }
+  
+  .logo-container img {
+    margin-top: 7px;
+    height: 100%; /* This will set the height of the logo to 100% of the container height */
+    display: block; /* This will remove any spacing around the logo */
+  }
+  .logo-container {
+    position: left;
+    top: 0;
+    height: 100px;
+    padding: 10px;
+  }
+  
+  .logo-container img {
+    height: 80%;
+    display: block;
+    display: flex;
+  }
+
+
+.rrrr {
+    background-image: url('image/Certificate.png');
+    width: 831px;
+    height: 588px;
+    background-color: #fff;
+    margin-top: 20px;
+    margin-bottom: 53px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+  #vvvv {
+    text-align: center;
+    font-size: 36px;
+    color: #000;
+    margin-top: 40px;
+  }
+  #ssss{
+    text-align: center;
+  }
+  #date{
+    text-align: center;
+  }
+  #nnnn {
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+    margin-top: 17px;
+    margin-bottom: 17px;
+  }
+
+  
+  footer {
+    background-color: #b1cff5;
+    color: white;
+    text-align: center;
+    height: 30px;
+  }
